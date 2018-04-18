@@ -116,5 +116,7 @@ void todo :: t_date(){
 }
 
 int main(){
+    todo my;
+    my.show();
     return 0;
 }
