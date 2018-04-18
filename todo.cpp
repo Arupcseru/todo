@@ -80,6 +80,23 @@ void todo :: delet(){
     manual();
 }
 
+void todo :: check(){
+
+    cin>>tmp;
+    if(tmp==1){
+        add();
+    }
+    if(tmp==2){
+        show();
+    }
+    if(tmp==3){
+        delet();
+    }
+    if(tmp==4){
+        exit(1);
+    }
+}
+
 void todo :: t_name(){
     cout<<"Enter Task Name:\n";
 }
