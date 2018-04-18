@@ -96,6 +96,14 @@ void todo :: check(){
         exit(1);
     }
 }
+void todo :: manual(){
+    cout<<"\n\nSelect an option\n";
+    cout<<"1.Add\n";
+    cout<<"2.Show\n";
+    cout<<"3.Delete\n";
+    cout<<"4.Exit\n";
+    check();
+}
 
 void todo :: t_name(){
     cout<<"Enter Task Name:\n";
