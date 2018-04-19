@@ -36,7 +36,7 @@ void  todo :: add(){
 
 }
 void  todo :: show(){
-        io.open("todo.txt");
+        io.open("todo.txt",ios::out);
         int i=1;
         cout<<"\n\n";
         while(!io.eof()){
